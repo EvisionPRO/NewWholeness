@@ -35,6 +35,19 @@ h3 {
     text-align: center;
 }
 
+h4 {
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    font-family: 'Adamina', serif;
+    color: #212121;
+    font-size: 4.2em;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 2px #eaeaea;
+}
+
 
 header {
     background-image: url("http://wholenessispossible.com/wp-content/uploads/2016/02/fabric_plaid-1.png");
@@ -85,9 +98,9 @@ ul {
     width: 500px;
     opacity: 0.55;
     border-radius: 5px;
-    float: left;
     position: relative;
-    left: 130px;
+    left: 630px;
+    top: -530px;
     font-family: 'Adamina', serif;
     font-size: 1.1em;
     text-align: left;
@@ -102,24 +115,72 @@ Here I want to define id
 */
 
 #book {
-    position: absolute;
     background-image: url("http://wholenessispossible.com/wp-content/uploads/2016/02/bg_home_04.jpg");
     width: 100%;
-    height: auto;
+    height: 550px;
 
 }
 
-#clear:before {
-    clear: both;
+#blue_container {
+    background-color: #00384A;
+    margin: 0px;
+    padding: 30px;
+    height: 100%;
 }
-
 
 .book {
     padding: 40px 0px 20px 0px;
     width: 35%;
     height: auto;
-    float: left;
     position: relative;
     left: 100px;
 }
 
+.blue {
+    font-size: 3.5em;
+    padding: 0px 0px 30px 0px;
+    color: #f8f8f8;
+    text-align: center;
+    text-shadow: 0 0 2px #1d1c1c;
+
+    
+}
+
+.left {
+    width: 525px;
+    font-family: Georgia, Times, serif;
+    font-size: 1em;
+    line-height: 1.4em;
+    font-weight: 100;
+    color: #f8f8f8;
+    text-align: left;
+    font-style: italic;
+    position: relative;
+    left: 60px;
+
+
+}
+
+.right { 
+    width: 525px;
+    font-family: Georgia, Times, serif;
+    font-size: 1em;
+    line-height: 1.4em;
+    font-weight: 100;
+    color: #f8f8f8;
+    text-align: left;
+    font-style: italic;
+    position: relative;
+    left: 660px;
+    top: -100px;
+}
+
+.left_who {
+    font-size: 0.8em;
+    line-height: 1em;
+}
+.left_what {
+    font-size: 0.8em;
+    line-height: 1em;
+    color: #5896aa;
+}
