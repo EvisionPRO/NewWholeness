@@ -1,4 +1,18 @@
-h1 {
+
+#header {
+    background-image: url("http://wholenessispossible.com/wp-content/uploads/2016/02/fabric_plaid-1.png");
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+body {
+    font-family: 'Adamina', serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.title {
     margin: 0px;
     padding: 0px 0px 0px 0px;
     font-family: 'Adamina', serif;
@@ -11,20 +25,19 @@ h1 {
     text-shadow: 0 0 2px #eaeaea;
 }
 
-h2 {
+.subTitle {
     margin: 0px;
-    padding: 30px 0px 0px 0px;
+    padding: 15px 0px 0px 0px;
 	font-family: lato;
     font-size: 3em;
     font-style: normal;
     font-weight: 100;
     text-transform: uppercase;
     text-align: center;
-    text-shadow: 0 0 1px #eaeaea;    
+    text-shadow: 0 0 1px #eaeaea; 
 }
 
-h3 {
-    
+.description {
     margin: 0px;
     padding: 3px 0px 25px 0px;
 	font-family: lato;
@@ -35,155 +48,69 @@ h3 {
     text-align: center;
 }
 
-h4 {
-    margin: 0px;
-    padding: 0px 0px 0px 0px;
-    font-family: 'Adamina', serif;
-    color: #212121;
-    font-size: 4.2em;
-    font-style: normal;
-    font-weight: 600;
-    text-align: center;
-    text-transform: uppercase;
-    text-shadow: 0 0 2px #eaeaea;
-}
-
-
-header {
-    background-image: url("http://wholenessispossible.com/wp-content/uploads/2016/02/fabric_plaid-1.png");
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-
-}
-
-body {
-    
-    margin: 0px;
-    padding: 0px;
-}
-
-div {
-    margin: 0px;
-    padding: 0px;
-}
-
-footer {
-    background-color: #00384A;
-    width: 100%;
-    margin: 0px;
-    padding: 35px 20px;
-    color: #f8f8f8;
-    text-align: center;
-}
-
-a {
-    text-decoration: none;
-    color: #f8f8f8;
-    
-}
-
-a:hover {
-    text-decoration: underline;
-    color: #ffa20f;
-}
-
-
-.image {
-    max-height: 100%;
-    max-width: 100%;
-    
-}
-
-p {
-    
-    margin: 0px;
-    padding: 0px;
-}
-
-ul {
-    background-color: #fafafa;
-    padding: 20px 20px 20px 65px;
-    margin-top: 35px;
-    width: 500px;
-    opacity: 0.55;
-    border-radius: 5px;
-    position: relative;
-    left: 630px;
-    top: -530px;
-    font-family: 'Adamina', serif;
-    font-size: 1.1em;
-    text-align: left;
-    list-style-image: url("http://wholenessispossible.com/wp-content/uploads/2016/02/Bullet_orange_light.png");
-    box-shadow: 5px 5px 2px #888888;
-
-}
-
-
 #book {
-    background-image: url("http://wholenessispossible.com/wp-content/uploads/2016/02/bg_home_04.jpg");
-    width: 100%;
-    height: 550px;
-
-}
-
-#blue_container {
-    background-color: #00384A;
-    margin: 0px;
-    padding: 30px;
-    height: 740px;
-    width: 100%;
-
-}
-
-#white_container {
-    margin: 0px;
-    padding: 30px;
-    height: 740px;
-    width: 100%;
     
-}
-
-.blue_container {
-    background-color: #00384A;
-    margin: 0px;
-    padding: 30px;
+    background: url(http://wholenessispossible.com/wp-content/uploads/2016/02/bg_home_04.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     width: 100%;
-    height: 340px;
-    
-}
-
-.wes_image {
-    padding: 20px 40px 20px 200px;
     float: left;
 
-
 }
 
-.image_text {
-    width: 550px;
-    padding-top: 45px;
-    font-family: 'Adamina', serif;
-    color: #f8f8f8;
-    font-size: 1em;
-    font-weight: 100;
-    line-height: 1.7em;
+#bookContainer {
+    width: 90%;
+    margin: 0 auto;
     float: left;
-}
-
-
-.white {
-    color: #2c3e50;
-    font-size: 2.4em;
-    margin-top: 30px;
 }
 
 .book {
-    padding: 40px 0px 20px 0px;
-    width: 35%;
-    height: auto;
-    position: relative;
-    left: 100px;
+    height: 490px !important;
+    margin-left: 120px !important;
+    margin-top: 30px;
+    margin-right: 45px !important;
+    float: left;
+    
+    
+}
+
+.bookList {
+    float: left;
+    width: 45%;
+    opacity: 0.7;
+    margin-top: 20px;
+    text-shadow: 1px 0px 0px #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+i {
+    margin-right: 5px;
+}
+
+.clear {
+                
+    clear:both;
+            
+}
+
+#mainButton {
+    margin: 15px 0px;
+    padding-bottom: 10px !important;
+    width: 45%;
+    height: 55px;
+    font-size: 1.7em;
+    text-transform: uppercase;
+}
+
+#blue_container {
+    width: 100%;
+    padding: 30px;
+    background-color: #00384A;
+    overflow: hidden;
 }
 
 .blue {
@@ -192,6 +119,7 @@ ul {
     color: #f8f8f8;
     text-align: center;
     text-shadow: 0 0 2px #1d1c1c;
+    text-transform: uppercase;
 
     
 }
@@ -221,7 +149,9 @@ ul {
     font-weight: 100;
     line-height: 1.4em;
     float: left;
+
     
+
     
 }
 
@@ -243,7 +173,21 @@ ul {
     padding-left: 20px;
 }
 
-/* white section */
+#white_container {
+    margin: 0px;
+    padding: 30px;
+    width: 100%;
+    
+}
+
+.white {
+    color: #2c3e50;
+    font-size: 3.4em;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 
 #left_section_white {
     margin: 10px;
@@ -291,10 +235,81 @@ ul {
     padding-left: 20px;
 }
 
-#amazon {
+.buttonContainer {
+    width: 730px;
+    margin: 0 auto;
+}
+
+.buy {
+    color: #2c3e50;
+    font-size: 3em;
+    text-align: center;
+    margin: 25px 0px 10px 0px;
+}
+
+.buyDetails {
+    color: #2c3e50;
+    font-size: 1.2em;
     text-align: center;
 }
 
+.buyIt {
+    width: 730px;
+    font-size: 1.9em !important;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.blue_container {
+    background-color: #00384A;
+    margin: 0px;
+    padding: 30px;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.wes_image {
+    padding: 20px 40px 20px 200px;
+    float: left;
+
+
+}
+
+.image_text {
+    width: 550px;
+    padding-top: 45px;
+    font-family: 'Adamina', serif;
+    color: #f8f8f8;
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1.7em;
+    float: left;
+}
+
 .amazon {
-        margin: 40px 0px 40px 0px;    
+    margin: 40px 0px 40px 0px; 
+    text-align: center;    
+}
+
+footer {
+    background-color: #00384A;
+    margin-top: 30px;
+    width: 100%;
+    padding: 35px 20px;
+    color: #f8f8f8;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #f8f8f8;
+    
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: #ffa20f;
 }
