@@ -1,12 +1,12 @@
 ## Wholeness Landing Page
 Landing page for author's Book "Wholeness is Possible" and main purpuse for that page is to practice coding skills.
 
-Website should have options to buy either hardcopy or digital pdf version and after purchase collect information about buyers and transaction. 
+The website should have options to buy either hardcopy or digital pdf version and after purchase collect information about buyers and transaction. 
 
-If user choose digital copy, than should have an option to download PDF file with the book.
+If user chooses digital copy, then he should have an option to login in and  download PDF file with the book.
 
 ## Motivation
-Oryginal website is builded on Wordpress http://wholenessispassible.com and I want to learn how to use Angular.js and Bootstrap instead CMS and also add Javascript features.
+The original website is built on Wordpress http://wholenessispassible.com and I want to learn how to use Angular.js and Bootstrap instead of CMS and also I want to add Javascript features.
 
 ## Screenshots
 
@@ -17,5 +17,5 @@ Oryginal website is builded on Wordpress http://wholenessispassible.com and I wa
 <img src="img/cart.png">
 
 ## Contributors
-I'm very open for any suggestion how can I improve my code in terms of simplicy, functionality and code design. 
+I'm open to any suggestions on how I can improve my code in terms of simplicy, functionality and code design. 
 
