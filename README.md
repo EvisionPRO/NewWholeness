@@ -6,7 +6,7 @@ Website should have options to buy either hardcopy or digital pdf version and af
 If user choose digital copy, than should have an option to download PDF file with the book.
 
 ## Motivation
-Oryginal website is builded on Wordpress http://wholenessispassible.com and I want to learn how to use Angular.js and Bootstrap instead CMS.
+Oryginal website is builded on Wordpress http://wholenessispassible.com and I want to learn how to use Angular.js and Bootstrap instead CMS and also add Javascript features.
 
 ## Screenshots
 
@@ -19,10 +19,3 @@ Oryginal website is builded on Wordpress http://wholenessispassible.com and I wa
 ## Contributors
 I'm very open for any suggestion how can I improve my code in terms of simplicy, functionality and code design. 
 
-## Credits
-
-TODO: Write credits
-
-## License
-
-TODO: Write license
