@@ -1,5 +1,5 @@
 ## Wholeness Landing Page
-Landing page for author's Book "Wholeness is Possible" and main purpuse for that page is to practice coding skills.
+A landing page for the book "Wholeness is Possible" and the main purpose of that page is to practice my coding skills.
 
 The website should have options to buy either hardcopy or digital pdf version and after purchase collect information about buyers and transaction. 
 
